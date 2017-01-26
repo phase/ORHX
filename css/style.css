@@ -22,14 +22,14 @@
 }
 
 body {
-  background-color: #44D5FF;
+  background-color: white;
 }
 
 section {
   overflow-x:hidden;
 }
 
-/* 
+/*
  * Hero Section
  */
 
@@ -88,7 +88,7 @@ section {
   padding: 10px 45px;
 }
 
-/* 
+/*
  * About Section
  */
 
