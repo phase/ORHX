@@ -15,7 +15,12 @@
  * Dark Blue: #0F2C34;
  * Primary Pink: #FF7FA8;
  */
-
+.orhxHead {
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: bold;
+  font-size: 45;
+}
 * {
   font-family: 'Open Sans';
   font-weight: 600;
