@@ -23,6 +23,12 @@
 
 }
 
+.orhxTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .orhxBase {
   font-family: 'Open Sans';
   text-align: center;
