@@ -16,28 +16,32 @@
  * Primary Pink: #FF7FA8;
  */
 .orhxHead {
-  font-family: 'Open Sans';
+  font-family: Roboto;
   text-align: center;
   font-weight: bold;
   font-size: 80px;
-
+  color: #0F2C34;
 }
+
+
 
 .orhxTitle {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  color: #0F2C34;
 }
 
 .orhxBase {
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   text-align: center;
   font-size: 20px;
   padding-bottom: 7vh;
+  color:  #0F2C34;
 }
 
 * {
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   font-weight: 600;
 }
 
