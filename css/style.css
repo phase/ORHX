@@ -16,16 +16,20 @@
  * Primary Pink: #FF7FA8;
  */
 .orhxHead {
-  font-family: Roboto;
+  font-family: 'Montserrat';
   text-align: center;
   font-weight: bold;
   font-size: 80px;
   color: #0F2C34;
 }
 
-
+.titles {
+  font-family: Roboto Condensed;
+  font-weight: 600;
+}
 
 .orhxTitle {
+  font-family: 'Montserrat';
   text-align: center;
   font-weight: bold;
   font-size: 30px;
