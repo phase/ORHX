@@ -9,6 +9,8 @@
 </script>
 
 
+  <script src="https://npmcdn.com/particlesjs@1.0.2/dist/particles.min.js"></script>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -20,6 +22,7 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/particle.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
@@ -31,6 +34,7 @@
 
 
 <body>
+  <canvas id="myCanvas"></canvas>
   <section class="hero">
 
     <div class="wrapper text-center">
@@ -168,3 +172,18 @@
   <script src="js/form.js"></script>
 </body>
 </html>
+
+<script>
+  window.onload = function() {
+    Particles.init({ options });
+  };
+
+  // e.g.
+  window.onload = function() {
+    Particles.init({
+      selector: '#myCanvas',
+      color: '#000000',
+      connectParticles: 'true'
+    });
+  };
+</script>
