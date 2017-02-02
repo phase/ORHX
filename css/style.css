@@ -147,8 +147,7 @@ section {
  */
 
 .info {
-  background-color: #fff;
-  margin-top: 15px;
+  background-color: lightgray;
   padding: 100px 0;
   position: relative;
 }
@@ -177,8 +176,7 @@ section {
  */
 
 .faq {
-  background-color: #e0e0e0;
-  margin-top: 15px;
+  background-color: #fff;
   padding-top: 100px;
   position: relative;
 }

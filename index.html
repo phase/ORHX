@@ -23,6 +23,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/particle.css" rel="stylesheet">
+  <link href="css/navbar.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
@@ -32,8 +33,17 @@
 </head>
 
 
+  <div id="navbar" >
+    <a href = "" id = "linkref"> Home </a>
+    <a href = "#myAnchor" id = "anchor" class="anchorscroll"> Dome </a>
+    <a href = "" id = "linkref"> Lome </a>
+    <a href = "" id = "linkref"> Rome</a>
+  </div>
+
+
 
 <body>
+
   <canvas id="myCanvas"></canvas>
   <section class="hero">
 
@@ -50,6 +60,8 @@
       </div>
     </div>
   </section>
+
+  <a name="myAnchor" id="myAnchor"><strong></strong></a>
 
   <section class="about">
     <div class="container">
@@ -170,6 +182,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/form.js"></script>
+  <script src="js/anchorscroll.js"></script>
 </body>
 </html>
 
