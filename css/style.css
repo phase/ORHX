@@ -126,7 +126,7 @@ section {
   border-width: 15px 0;
   background-color: #fff;
   padding: 130px 0;
-  //position: relative;
+  position: relative;
 }
 
 .about p {
@@ -149,7 +149,7 @@ section {
 .info {
   background-color: lightgray;
   padding: 100px 0;
-//  position: relative;
+  position: relative;
 }
 
 .info .item {
@@ -178,7 +178,7 @@ section {
 .faq {
   background-color: #fff;
   padding-top: 100px;
-//  position: relative;
+  position: relative;
 }
 
 .faq h1 {
